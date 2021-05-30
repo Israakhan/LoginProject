@@ -76,6 +76,7 @@ class MyApp extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   primary: Colors.pink, // background
                   onPrimary: Colors.white, // foreground
+                  padding: EdgeInsets.symmetric(horizontal: 60, vertical: 15),
                 ),
                 onPressed: () {},
                 child: Text("Login"),
